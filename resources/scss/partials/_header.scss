@@ -1,0 +1,62 @@
+header {
+    height: 100px;
+
+    .info {
+        height: 20px;
+        background-color: dodgerblue;
+    }
+}
+
+.navbar {
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .nav-left {
+        flex-basis: 25%;
+
+        img {
+            max-width: 50%;
+            display: block;
+        }
+    }
+
+    .nav-center {
+        flex-basis: 50%;
+        height: 100%;
+
+        ul {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100%;
+
+            li {
+                padding: 10px;
+
+                &.active {
+                    color: rgb(2, 130, 249);
+                    border-bottom: 4px solid rgb(2, 130, 249);
+                }
+            }
+        }
+
+        a {
+            color: black;
+            font-weight: bold;
+        }
+    }
+
+    .nav-right {
+        flex-basis: 25%;
+
+        input {
+            border: none;
+            border-bottom: 2px solid dodgerblue;
+            text-align: right;
+            width: 150px;
+        }
+    }
+}
