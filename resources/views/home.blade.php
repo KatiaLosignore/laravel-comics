@@ -22,10 +22,13 @@
                     <div class="card">
                         <figure>
                             <img src="{{ $comic['thumb'] }}" alt="{{ $comic['type'] }}">
-                            <p>{{ $comic['series'] }}</p>
                         </figure>
+                        <p>{{ $comic['series'] }}</p>
                     </div>
                 @endforeach
+            </div>
+            <div class="buttons">
+                <div class="load-button">LOAD MORE</div>
             </div>
         </section>
         <!-- main bottom -->

@@ -21,13 +21,15 @@ footer {
         color: white;
         font-family: "Open Sans Condensed", sans-serif;
 
-        &>* {
+        ul {
             padding: 15px 0;
             margin-right: 20px;
         }
 
         h3 {
             margin-bottom: 5px;
+            margin-top: 30px;
+            margin-right: 45px;
         }
 
         ul {

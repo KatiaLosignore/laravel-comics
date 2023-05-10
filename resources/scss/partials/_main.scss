@@ -9,7 +9,7 @@
 .main-top {
     background-color: black;
     color: white;
-    min-height: 400px;
+    min-height: 300px;
 
     position: relative;
 
@@ -27,17 +27,19 @@
 
     .container {
         display: flex;
+        justify-content: center;
         flex-wrap: wrap;
         padding: 30px 0;
 
         .card {
-            flex-basis: calc(100% / 6);
-            padding: 20px 10px;
-            
+            flex-basis: (100% / 6);
+            padding: 20px 0px;
+            cursor: pointer;
+            background-color: black;
 
             figure {
-                height: 150px;
-                width: 150px;
+                height: 200px;
+                width: 200px;
                 margin-bottom: 10px;
 
                 img {
@@ -47,6 +49,23 @@
 
                 }
             }
+        }
+    }
+
+    .buttons {
+        margin: 0px auto;
+        padding: 14px;
+        width: 160px;
+        border-radius: 18px;
+        font-size: 11px;
+        font-weight: 600;
+        cursor: pointer;
+    
+        .load-button {
+            background-color: $blue;
+            padding: 10px;
+            color: $white;
+            text-align: center;
         }
     }
 }
