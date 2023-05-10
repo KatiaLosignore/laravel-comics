@@ -36,7 +36,7 @@
             <ul class="container">
                 @foreach($banners as $banner)
                     <li>
-                        <img src="{{Vite:: asset('resources/img/'.$banner['image'])}}" alt="buy-comics-digital">
+                        <img src="{{Vite::asset('resources/img/'.$banner['image'])}}" alt="buy-comics-digital" @if($loop->last) style="width:48px" @endif>    
                         <p>{{$banner['text']}}</p>
                     </li>
                 @endforeach

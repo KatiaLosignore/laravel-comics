@@ -59,7 +59,7 @@
                 </div>
             </div>
             <div class="col-right">
-                <img src="{{Vite:: asset('resources/img/dc-logo-bg.png')}}" alt="dc-logo">
+                <img src="{{Vite::asset('resources/img/dc-logo-bg.png')}}" alt="dc-logo">
             </div>
         </div>
     </section>
@@ -73,19 +73,19 @@
                 <h5> FOLLOW US </h5>
                 <ul>
                     <li>
-                        <a href="#"> <img src="{{Vite:: asset('resources/img/footer-facebook.png')}}" alt="Facebook"> </a>
+                        <a href="#"> <img src="{{Vite::asset('resources/img/footer-facebook.png')}}" alt="Facebook"> </a>
                     </li>
                     <li>
-                        <a href="#"> <img src="{{Vite:: asset('resources/img/footer-twitter.png')}}" alt="twitter"> </a>
+                        <a href="#"> <img src="{{Vite::asset('resources/img/footer-twitter.png')}}" alt="twitter"> </a>
                     </li>
                     <li>
-                        <a href="#"> <img src="{{Vite:: asset('resources/img/footer-youtube.png')}}" alt="youtube"> </a>
+                        <a href="#"> <img src="{{Vite::asset('resources/img/footer-youtube.png')}}" alt="youtube"> </a>
                     </li>
                     <li>
-                        <a href="#"> <img src="{{Vite:: asset('resources/img/footer-pinterest.png')}}" alt="pinterest"> </a>
+                        <a href="#"> <img src="{{Vite::asset('resources/img/footer-pinterest.png')}}" alt="pinterest"> </a>
                     </li>
                     <li>
-                        <a href="#"> <img src="{{Vite:: asset('resources/img/footer-periscope.png')}}" alt="periscope"> </a>
+                        <a href="#"> <img src="{{Vite::asset('resources/img/footer-periscope.png')}}" alt="periscope"> </a>
                     </li>
                 </ul>
             </div>
