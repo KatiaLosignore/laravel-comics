@@ -19,12 +19,12 @@
             <div class="title"> Current Series </div>
             <div class="container">
                 @foreach($comics as $comic)
-                <div class="card">
-                    <figure>
-                        <img src="{{ $comic['thumb'] }}" alt="{{ $comic['type'] }}">
-                    </figure>
-                    <figcaption> {{ $comic['series'] }} </figcaption>
-                </div>
+                    <div class="card">
+                        <figure>
+                            <img src="{{ $comic['thumb'] }}" alt="{{ $comic['type'] }}">
+                            <p>{{ $comic['series'] }}</p>
+                        </figure>
+                    </div>
                 @endforeach
             </div>
         </section>

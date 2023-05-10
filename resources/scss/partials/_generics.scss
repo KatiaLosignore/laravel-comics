@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
 /* Generic */
 body {
     font-family: "Open Sans", sans-serif;

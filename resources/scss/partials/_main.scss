@@ -1,7 +1,7 @@
 .jumbo {
     height: 300px;
     width: 100%;
-    background-image: url("../images/jumbotron.jpg");
+    background-image: url("../img/jumbotron.jpg");
     background-size: cover;
     background-position: top;
 }
@@ -32,7 +32,8 @@
 
         .card {
             flex-basis: calc(100% / 6);
-            padding: 20px 5px;
+            padding: 20px 10px;
+            
 
             figure {
                 height: 150px;
